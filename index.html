@@ -1,0 +1,835 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+    <!-- Basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+   
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+     <!-- Site Metas -->
+    <title>Drk Naim</title>  
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- ALL VERSION CSS -->
+    <link rel="stylesheet" href="css/versions.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!-- Modernizer for Portfolio -->
+    <script src="js/modernizer.js"></script>
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/651edd0b9d.js" crossorigin="anonymous"></script>
+    <!-- <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"> -->
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body class="host_version"> 
+
+	<!-- Modal -->
+	<!-- <div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+		<div class="modal-content">
+			<div class="modal-header tit-up">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title">Customer Login</h4>
+			</div>
+			<div class="modal-body customer-box">
+				 Nav tabs --><!--
+				<ul class="nav nav-tabs">
+					<li><a class="active" href="#Login" data-toggle="tab">Login</a></li>
+					<li><a href="#Registration" data-toggle="tab">Registration</a></li>
+				</ul>
+				 Tab panes --><!--
+				<div class="tab-content">
+					<div class="tab-pane active" id="Login">
+						<form role="form" class="form-horizontal">
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" id="email1" placeholder="Name" type="text">
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" id="exampleInputPassword1" placeholder="Email" type="email">
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-sm-10">
+									<button type="submit" class="btn btn-light btn-radius btn-brd grd1">
+										Submit
+									</button>
+									<a class="for-pwd" href="javascript:;">Forgot your password?</a>
+								</div>
+							</div>
+						</form>
+					</div>
+					<div class="tab-pane" id="Registration">
+						<form role="form" class="form-horizontal">
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" placeholder="Name" type="text">
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" id="email" placeholder="Email" type="email">
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" id="mobile" placeholder="Mobile" type="email">
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" id="password" placeholder="Password" type="password">
+								</div>
+							</div>
+							<div class="row">							
+								<div class="col-sm-10">
+									<button type="button" class="btn btn-light btn-radius btn-brd grd1">
+										Save &amp; Continue
+									</button>
+									<button type="button" class="btn btn-light btn-radius btn-brd grd1">
+										Cancel</button>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	  </div>
+	</div> -->
+
+    <!-- LOADER -->
+	<div id="preloader">
+		<div class="loader-container">
+			<div class="progress-br float shadow">
+				<div class="progress__item"></div>
+			</div>
+		</div>
+	</div>
+	<!-- END LOADER -->	
+	
+	<!-- Start header -->
+	<header class="top-navbar fixed-top">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="index.html">
+					<img src="images/2logo.png" alt="" />
+				</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-host" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbars-host">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+						<li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="course-grid-3.html">Course</a></li>
+                        <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+						<!-- <li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">Course </a>
+							<div class="dropdown-menu" aria-labelledby="dropdown-a">
+								<a class="dropdown-item" href="course-grid-2.html">Course Grid 2 </a>
+								<a class="dropdown-item" href="course-grid-3.html">Course Grid 3 </a>
+								<a class="dropdown-item" href="course-grid-4.html">Course Grid 4 </a>
+							</div>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">Blog </a>
+							<div class="dropdown-menu" aria-labelledby="dropdown-a">
+								<a class="dropdown-item" href="blog.html">Blog </a>
+								<a class="dropdown-item" href="blog-single.html">Blog single </a>
+							</div>
+						</li> -->
+						<li class="nav-item"><a class="nav-link" href="teachers.html">Teachers</a></li>
+						<li class="nav-item"><a class="nav-link" href="pricing.html">Pricing</a></li>
+						<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+					</ul>
+					<!-- <ul class="nav navbar-nav navbar-right">
+                        <li><a class="hover-btn-new log orange" href="#" data-toggle="modal" data-target="#login"><span>Book Now</span></a></li>
+                    </ul> -->
+				</div>
+			</div>
+		</nav>
+	</header>
+	<!-- End header -->
+
+    <div class="top-space"></div>
+
+	<div class="abc">
+        <div style="background-image: url(images/slider-01.jpg);" class="all-title-box home-title-box">
+		    <div class=" home-title">
+                <h2 id="title-ra">রজব আলী</h2>
+                <h3 id="title-msc">মেমোরিয়াল বিজ্ঞান ডিগ্রি কলেজ</h3>
+
+                <h2><strong style="font-size: 50px; color: #eea412;"></strong><br></h2>
+
+                
+                    <!-- &nbsp; " For Space" -->
+            </div>
+            <div class="big-tagline text-right">
+                <a style="margin-bottom: 5%; margin-right: 5%;" href="#" class="hover-btn-new"><span>Contact</span></a>
+            </div>
+	    </div>
+    </div>
+    
+
+    <!-- <div class="home-title-box">
+		<div class="container text-center">
+			<h1>About Us<span class="m_1">Lorem Ipsum dolroin gravida nibh vel velit.</span></h1>
+		</div>
+	</div> -->
+
+    
+	<!-- <div id="carouselExampleControls" class="carousel slide bs-slider box-slider" data-ride="carousel" data-pause="hover" data-interval="false" > -->
+		<!-- Indicators -->
+		<!-- <ol class="carousel-indicators">
+			<li data-target="#carouselExampleControls" data-slide-to="0" class="active"></li>
+			<li data-target="#carouselExampleControls" data-slide-to="1"></li>
+			<li data-target="#carouselExampleControls" data-slide-to="2"></li>
+		</ol> -->
+<!--         
+		<div class="carousel-inner" role="listbox">
+			<div class="carousel-item active">
+				<div id="home" class="first-section" style="background-image:url('images/slider-01.jpg');">
+					<div class="dtab">
+						<div class="container">
+							<div class="row">
+								<div class="col-md-12 col-sm-12 text-right">
+									<div class="big-tagline home-title">
+										<h2><strong style="font-size: 50px; border: 2px solid black;">রজব আলী</strong><br>মেমোরিয়াল বিজ্ঞান ডিগ্রি কলেজ</h2>
+										<p class="lead"></p>
+											<a href="#" class="hover-btn-new"><span>Contact Us</span></a>
+											&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+									</div>
+								</div>
+							</div>       
+						</div>
+					</div>
+				</div>
+			</div> -->
+
+
+
+			<!-- <div class="carousel-item">
+				<div id="home" class="first-section" style="background-image:url('images/slider-02.jpg');">
+					<div class="dtab">
+						<div class="container">
+							<div class="row">
+								<div class="col-md-12 col-sm-12 text-left">
+									<div class="big-tagline">
+										<h2 data-animation="animated zoomInRight">SmartEDU <strong>education school</strong></h2>
+										<p class="lead" data-animation="animated fadeInLeft">With Landigoo responsive landing page template, you can promote your all hosting, domain and email services. </p>
+											<a href="#" class="hover-btn-new"><span>Contact Us</span></a>
+											&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											<a href="#" class="hover-btn-new"><span>Read More</span></a>
+									</div>
+								</div>
+							</div>  end row -->  <!--          
+						</div>  end container -->  <!--
+					</div>
+				</div>  end section --> <!--
+			</div> -->
+			<!-- <div class="carousel-item">
+				<div id="home" class="first-section" style="background-image:url('images/slider-03.jpg');">
+					<div class="dtab">
+						<div class="container">
+							<div class="row">
+								<div class="col-md-12 col-sm-12 text-center">
+									<div class="big-tagline">
+										<h2 data-animation="animated zoomInRight"><strong>VPS Servers</strong> Company</h2>
+										<p class="lead" data-animation="animated fadeInLeft">1 IP included with each server 
+											Your Choice of any OS (CentOS, Windows, Debian, Fedora)
+											FREE Reboots</p>
+											<a href="#" class="hover-btn-new"><span>Contact Us</span></a>
+											&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											<a href="#" class="hover-btn-new"><span>Read More</span></a>
+									</div>
+								</div>
+							</div> end row -->    <!--        
+						</div> end container --><!--
+					</div>
+				</div> end section --><!--
+			</div> -->
+			<!-- Left Control -->
+			<!-- <a class="new-effect carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+				<span class="fa fa-angle-left" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+
+			 Right Control --><!--
+			<a class="new-effect carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+				<span class="fa fa-angle-right" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a> -->
+		<!-- </div>
+	</div> -->
+	
+    <div id="overviews" class="section wb">
+        <div class="container">
+            <div class="section-title row text-center">
+                <div class="col-md-12">
+                    <h3>প্রাক্ কথন</h3>
+                    <p class="lead">
+                        রজব আলী মেমোরিয়াল বিজ্ঞান ডিগ্রি কলেজ প্রতিষ্ঠালগ্ন থেকেই শিক্ষা সেবার ব্রুত নিয়ে নিরলসভাবে কাজ করে যাচ্ছে এবং কলেজের শিক্ষাদান পদ্ধতি ও সার্বিক শৃঙ্খলা বিভিন্ন মহলের উচ্ছ্বসিত প্রশংসা লাভ করছে। এটা সুস্পষ্টভাবে প্রতিয়মান যে, একজন ছাত্র-ছাত্রীর ভবিষ্যৎ জীবন নির্ভর করে উচ্চ মাধ্যমিক ফলাফলের উপর। সেদিকে লক্ষ্য রেখেই কলেজের কার্যক্রম ও নিয়ম-শৃঙ্খলার প্রতি রয়েছে কলেজ পরিচালনা পরিষদের তীক্ষ্ন দৃষ্টি। শিক্ষাদানের জন্য রয়েছে একদল অভিজ্ঞ শিক্ষক-শিক্ষিকা এবং তাদের জন্য রয়েছে জবাবদিহিতা মূলক ব্যবস্থা । শিক্ষার্থীদের জ্ঞান ভাস্ডারকে সমৃদ্ধ করার জন্য রয়েছে সুবিশাল লাইব্রেরি এবং বিজ্ঞান শিক্ষার জন্য রয়েছে আধুনিক গবেষণাগার ৷ এছাড়াও চিত্ত বিনোদন, গান, নাটক ও আবৃত্তির জন্য রয়েছে সাংস্কৃতিক সংগঠন ৷ খেলাধুলার রয়েছে ক্রীড়া কমিটি । আপনার সন্তান বা পোষ্যকে যেখানেই ভর্তি করান না কেন তার পূর্বে একবার আমাদের কলেজ ক্যাম্পাসের সার্বিক পরিবেশ ও পাঠদান পদ্ধতি যাচাই করে সিদ্ধান্ত করার জন্য অনুরোধ করছি। কারণ একমাত্র আমরাই থাকি।</p>
+                </div>
+            </div><!-- end title -->
+            
+            
+
+
+            <div class="">
+                <div class="row align-items-center">
+                    
+                    <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 abc">
+                        <div class="post-media wow fadeIn">
+                            <img src="images/about_02.png" alt="" class="img-fluid img-rounded">
+                        </div><!-- end media -->
+                    </div><!-- end col -->
+                    
+                    <div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 abc">
+                        <div class="message-box">
+                            <!-- <h4>2018 BEST SmartEDU education school</h4> -->
+                            <h2>প্রতিষ্ঠাতার বাণী</h2><br>
+                            <p><strong>আসসালামু আলাইকুম ওয়া রাহমাতুল্লাহ।</strong> </p>
+    
+                            <p>অজস্র জ্ঞানী-গুণী মনীষীর জীবন গাথা সিরাজগঞ্জ আজ যমুনা নদীর করাল গ্রাসে আক্রান্ত। ভয়াবহ বন্যা আর নদী ভাঙ্গনে শত সহস্র একর জমি নদীগ্ভে বিলীন হচ্ছে। কৃষক হচ্ছেন ভূমিহীন, ব্যবসায়ী হচ্ছেন বিত্তহীন, চাকুরে হচ্ছেন দিশহারা। নতুন প্রজন্ম ব্চিত হচ্ছেন আধুনিক ও মানসম্মত শিক্ষা থেকে। ফলে প্রতিযোগিতামূলক বিশ্বে এখানকার ছাত্র-ছাত্রীরা অনেক পিছিয়ে পড়েছে। ধরে রাখতে পারছেনা তাদের পূর্ব  ...</p>
+    
+                            <a href="about.html" class="hover-btn-new orange"><span>Learn More</span></a>
+                        </div>
+                    </div>
+                    
+                    
+                    
+                </div>
+            </div>
+
+            <div class="inner-hmv">
+                <h3 style="text-align: center;">কলেজটি কেন ব্যতিক্রমধমী</h3>
+                <div class="bullet">
+                    <ul>
+                        <li>১০০% ক্লাসের নিশ্চয়তা</li>
+                        <li>রাজনীতি ও ধুমপানমুক্ত</li>
+                        <li>কলেজ ইউনিফর্ম পরিধান বাধ্যতামুলকৎ</li>
+                        <li>কলেজ ক্যাম্পাসের দেয়ালে লেখালেখি নিষেধ</li>
+                        <li>ক্লাসে পড়া না পারলে স্পেশাল ক্লাসের ব্যবস্থা</li>
+                        <li>স্বল্প খরচে কলেজ ছাত্রাবাসে থাকার সু-ব্যবস্থা</li>
+                        <li>ঝড়, বৃষ্টি, বন্যা ও হরতালেও ক্লাস চালু থাকে</li>
+                        <li>প্রগ্রেসিভ রিপোর্ট অভিভাবক মহলকে অবহিতকরণ</li>
+                        <li>ছাত্র-ছাত্রীদের জন্য পৃথক অযুখানা ও নামাজের ব্যবস্থা</li>
+                        <li>এতিম, দুঃস্থ ও মেধাবী ছাত্র-ছাত্রীদের সুযোগ সুবিধার ব্যবস্থা</li>
+                        <li>লাইব্রেরি থেকে যেকোন বই চাওয়ামাত্র সরবরাহ করার ব্যবস্থা</li>
+                        <li>সাপ্তাহিক টিউটোরিয়ালসহ সকল পরীক্ষায় অংশগ্রহণ করা বাধ্যতামূলক</li>
+                        <li>ডিসপ্লে বোর্ডে লিখিত প্রবাদ বাক্য/বাণী মুখস্থ লিপিবদ্ধ করা বাধ্যতামূলক</li>
+                        <li>ছাত্র-ছাত্রীদের যাবতীয় বিষয় পর্যবেক্ষণের জন্য রয়েছে সার্বক্ষণিক মনিটরিং সেল</li>
+                        <li>বর্ষ সমপনী ও নির্বাচনি পরীক্ষাসহ সকল পরীক্ষায় অংগ্রহণ ও কৃতকার্যতা আবশ্যক</li>
+                        <li>কলেজে ক্লাস শুরুর পর গেট বন্ধ থাকে এবং প্রবেশ করার পর অনুমোতি ছাড়া বাহিরে যাওয়া নিষেধ</li>
+                        <li>শারিরিক ও মানসিক বিকাশের জন্য খেলাধুলা, সাংস্কৃতিক অনুষ্ঠান, জাতীয় দিবস উদযাপন ও শিক্ষা সফরের ব্যবস্থা</li>
+                        <li>১০-১৫ জন ছাত্র-ছাত্রীকে নিয়ে বিশেষ দল গঠন করে একজন শিক্ষকের আধীনে সার্বক্ষণিক তত্ত্বাবধানের ব্যবস্থা</li>
+                    </ul>
+                        
+                            
+                </div>
+                    <!-- </div> -->
+                </div>
+    
+            </div>
+            
+
+
+			<!-- <div class="row align-items-center">
+				<div class="col-xl-3 col-lg-3 col-md-12 col-sm-12">
+                    <div class="post-media wow fadeIn">
+                        <img src="images/about_03.png" alt="" class="img-fluid img-rounded">
+                    </div> end media --><!--
+                </div> end col --><!--
+				
+                <div class="col-xl-1 col-lg-1 col-md-12 col-sm-12">
+                </div>
+
+				<div class="col-xl-8 col-lg-8 col-md-12 col-sm-12">
+                    <div class="message-box">
+                        <h2>সভাপতির বাণী</h2><br>
+                        <p><strong>আসসালামু আলাইকুম ওয়া রাহমাতুল্লাহ।</strong> </p>
+
+                        <p>রজব আলী মেমোরিয়াল বিজ্ঞান ডিগ্রি কলেজ সিরাজগঞ্জবাসীর কাছে একটি অতি পরিচিত নাম। অতি অল্প সময়ের মধ্যে কলেজটি সর্ব মহলে তার শিক্ষা কার্যক্রম ও সু-শৃঙ্খলার জন্য প্রশংসিত হয়েছে এটা বলাই বাহুল্য। প্রতিষ্ঠানটি আমার নিজ এলাকা সংলগ্ন তাই ইহার প্রতি আমার সুদৃষ্টি ও উতকস্ঠা উভয়ই অধিক হওয়াই স্বাভাবিক। ইতোমধ্যে কলেজটির সভাপতির দায়িত্ব গ্রহণ করার পর তা বৃদ্ধি পেয়েছে, এতে কোন সন্দেহ  ...</p>
+
+                        <a href="about.html" class="hover-btn-new orange"><span>Learn More</span></a>
+                    </div> end messagebox --><!--
+                </div>  end col -->
+				
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div><!-- end section -->
+
+    <section class="section lb page-section">
+		<div class="container">
+			 <div class="section-title row text-center">
+                <!-- <div class="col-md-8 offset-md-2">
+                    <h3>Our history</h3>
+                    <p class="lead">Lorem Ipsum dolroin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem!</p>
+                </div> -->
+            </div><!-- end title -->
+			<div class="timeline">
+				<div class="timeline__wrap">
+					<div class="timeline__items">
+						<div class="timeline__item">
+							<div class="timeline__content img-bg-01">
+								<h2>2018</h2>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim neque condimentum lacus dapibus. Lorem
+									ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							</div>
+						</div>
+						<div class="timeline__item">
+							<div class="timeline__content img-bg-02">
+								<h2>2015</h2>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim neque condimentum lacus dapibus. Lorem
+									ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							</div>
+						</div>
+						<div class="timeline__item">
+							<div class="timeline__content img-bg-03">
+								<h2>2014</h2>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim neque condimentum lacus dapibus. Lorem
+									ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							</div>
+						</div>
+						<div class="timeline__item">
+							<div class="timeline__content img-bg-04">
+								<h2>2012</h2>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim neque condimentum lacus dapibus. Lorem
+									ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							</div>
+						</div>
+						<div class="timeline__item">
+							<div class="timeline__content img-bg-01">
+								<h2>2010</h2>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim neque condimentum lacus dapibus. Lorem
+									ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							</div>
+						</div>
+						<div class="timeline__item">
+							<div class="timeline__content img-bg-02">
+								<h2>2007</h2>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim neque condimentum lacus dapibus. Lorem
+									ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							</div>
+						</div>
+						<div class="timeline__item">
+							<div class="timeline__content img-bg-03">
+								<h2>2004</h2>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim neque condimentum lacus dapibus. Lorem
+									ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							</div>
+						</div>
+						<div class="timeline__item">
+							<div class="timeline__content img-bg-04">
+								<h2>2002</h2>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim neque condimentum lacus dapibus. Lorem
+									ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+    <!-- Google Map Start -->
+
+    <div class="g-map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1226.818635194307!2d89.69433862484414!3d24.451343855444595!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x96632fd0e94b89c3!2z4Kaw4Kac4KasIOCmhuCmsuCngCDgpq7gp4fgpq7gp4vgprDgpr_gp5_gpr7gprIg4Kas4Ka_4Kac4KeN4Kae4Ka-4KaoIOCmleCmsuCnh-CmnA!5e1!3m2!1sen!2sbd!4v1674660559885!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <!-- Google Map End -->
+
+
+    <!-- <div id="plan" class="section lb">
+        <div class="container">
+            <div class="section-title text-center">
+                <h3>Choose Your Plan</h3>
+                <p>Lorem ipsum dolor sit aet, consectetur adipisicing lit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+            </div> end title --><!--
+
+            <div class="row">
+                <div class="col-md-6 offset-md-3">
+                    <div class="message-box">
+                        <ul class="nav nav-pills nav-stacked" id="myTabs">
+                            <li><a class="active" href="#tab1" data-toggle="pill">Monthly Subscription</a></li>
+                            <li><a href="#tab2" data-toggle="pill">Yearly Subscription</a></li>
+                        </ul>
+                    </div>
+                </div> end col --><!--
+            </div>
+
+            <hr class="invis">
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="tab-content">
+                        <div class="tab-pane active fade show" id="tab1">
+                            <div class="row text-center">
+                                <div class="col-md-4">
+                                    <div class="pricing-table pricing-table-highlighted">
+                                        <div class="pricing-table-header grd1">
+                                            <h2>$45</h2>
+                                            <h3>per month</h3>
+                                        </div>
+                                        <div class="pricing-table-space"></div>
+                                        <div class="pricing-table-features">
+                                            <p><i class="fa fa-envelope-o"></i> <strong>250</strong> Email Addresses</p>
+                                            <p><i class="fa fa-rocket"></i> <strong>125GB</strong> of Storage</p>
+                                            <p><i class="fa fa-database"></i> <strong>140</strong> Databases</p>
+                                            <p><i class="fa fa-link"></i> <strong>60</strong> Domains</p>
+                                            <p><i class="fa fa-life-ring"></i> <strong>24/7 Unlimited</strong> Support</p>
+                                        </div>
+                                        <div class="pricing-table-sign-up">
+                                            <a href="#" class="hover-btn-new orange"><span>Order Now</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="pricing-table pricing-table-highlighted">
+                                        <div class="pricing-table-header grd1">
+                                            <h2>$59</h2>
+                                            <h3>per month</h3>
+                                        </div>
+                                        <div class="pricing-table-space"></div>
+                                        <div class="pricing-table-features">
+                                            <p><i class="fa fa-envelope-o"></i> <strong>150</strong> Email Addresses</p>
+                                            <p><i class="fa fa-rocket"></i> <strong>65GB</strong> of Storage</p>
+                                            <p><i class="fa fa-database"></i> <strong>60</strong> Databases</p>
+                                            <p><i class="fa fa-link"></i> <strong>30</strong> Domains</p>
+                                            <p><i class="fa fa-life-ring"></i> <strong>24/7 Unlimited</strong> Support</p>
+                                        </div>
+                                        <div class="pricing-table-sign-up">
+                                            <a href="#" class="hover-btn-new orange"><span>Order Now</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <div class="pricing-table pricing-table-highlighted">
+                                        <div class="pricing-table-header grd1">
+                                            <h2>$85</h2>
+                                            <h3>per month</h3>
+                                        </div>
+                                        <div class="pricing-table-space"></div>
+                                        <div class="pricing-table-features">
+                                            <p><i class="fa fa-envelope-o"></i> <strong>250</strong> Email Addresses</p>
+                                            <p><i class="fa fa-rocket"></i> <strong>125GB</strong> of Storage</p>
+                                            <p><i class="fa fa-database"></i> <strong>140</strong> Databases</p>
+                                            <p><i class="fa fa-link"></i> <strong>60</strong> Domains</p>
+                                            <p><i class="fa fa-life-ring"></i> <strong>24/7 Unlimited</strong> Support</p>
+                                        </div>
+                                        <div class="pricing-table-sign-up">
+                                            <a href="#" class="hover-btn-new orange"><span>Order Now</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> end row --><!--
+                        </div> end pane --><!--
+
+                        <div class="tab-pane fade" id="tab2">
+                            <div class="row text-center">
+                                <div class="col-md-4">
+                                    <div class="pricing-table pricing-table-highlighted">
+                                        <div class="pricing-table-header grd1">
+                                            <h2>$477</h2>
+                                            <h3>Year</h3>
+                                        </div>
+                                        <div class="pricing-table-space"></div>
+                                        <div class="pricing-table-features">
+                                            <p><i class="fa fa-envelope-o"></i> <strong>250</strong> Email Addresses</p>
+                                            <p><i class="fa fa-rocket"></i> <strong>125GB</strong> of Storage</p>
+                                            <p><i class="fa fa-database"></i> <strong>140</strong> Databases</p>
+                                            <p><i class="fa fa-link"></i> <strong>60</strong> Domains</p>
+                                            <p><i class="fa fa-life-ring"></i> <strong>24/7 Unlimited</strong> Support</p>
+                                        </div>
+                                        <div class="pricing-table-sign-up">
+                                            <a href="#" class="hover-btn-new orange"><span>Order Now</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="pricing-table pricing-table-highlighted">
+                                        <div class="pricing-table-header grd1">
+                                            <h2>$485</h2>
+                                            <h3>Year</h3>
+                                        </div>
+                                        <div class="pricing-table-space"></div>
+                                        <div class="pricing-table-features">
+                                            <p><i class="fa fa-envelope-o"></i> <strong>150</strong> Email Addresses</p>
+                                            <p><i class="fa fa-rocket"></i> <strong>65GB</strong> of Storage</p>
+                                            <p><i class="fa fa-database"></i> <strong>60</strong> Databases</p>
+                                            <p><i class="fa fa-link"></i> <strong>30</strong> Domains</p>
+                                            <p><i class="fa fa-life-ring"></i> <strong>24/7 Unlimited</strong> Support</p>
+                                        </div>
+                                        <div class="pricing-table-sign-up">
+                                            <a href="#" class="hover-btn-new orange"><span>Order Now</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <div class="pricing-table pricing-table-highlighted">
+                                        <div class="pricing-table-header grd1">
+                                            <h2>$500</h2>
+                                            <h3>Year</h3>
+                                        </div>
+                                        <div class="pricing-table-space"></div>
+                                        <div class="pricing-table-features">
+                                            <p><i class="fa fa-envelope-o"></i> <strong>250</strong> Email Addresses</p>
+                                            <p><i class="fa fa-rocket"></i> <strong>125GB</strong> of Storage</p>
+                                            <p><i class="fa fa-database"></i> <strong>140</strong> Databases</p>
+                                            <p><i class="fa fa-link"></i> <strong>60</strong> Domains</p>
+                                            <p><i class="fa fa-life-ring"></i> <strong>24/7 Unlimited</strong> Support</p>
+                                        </div>
+                                        <div class="pricing-table-sign-up">
+                                            <a href="#" class="hover-btn-new orange"><span>Order Now</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> end row --><!--
+                        </div> end pane --><!--
+                    </div> end content --><!--
+                </div> end col --><!--
+            </div> end row --><!--
+        </div> end container --><!--
+    </div>  end section -->
+
+
+
+    <!-- <div id="testimonials" class="parallax section db parallax-off" style="background-image:url('images/parallax_04.jpg');">
+        <div class="container">
+            <div class="section-title text-center">
+                <h3>Testimonials</h3>
+                <p>Lorem ipsum dolor sit aet, consectetur adipisicing lit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+            </div> end title --><!--
+
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <div class="testi-carousel owl-carousel owl-theme">
+                        <div class="testimonial clearfix">
+							<div class="testi-meta">
+                                <img src="images/testi_01.png" alt="" class="img-fluid">
+                                <h4>James Fernando </h4>
+                            </div>
+                            <div class="desc">
+                                <h3><i class="fa fa-quote-left"></i> Wonderful Support!</h3>
+                                <p class="lead">They have got my project on time with the competition with a sed highly skilled, and experienced & professional team.</p>
+                            </div>
+                             end testi-meta --><!--
+                        </div>
+                         end testimonial --><!--
+
+                        <div class="testimonial clearfix">
+							<div class="testi-meta">
+                                <img src="images/testi_02.png" alt="" class="img-fluid">
+                                <h4>Jacques Philips </h4>
+                            </div>
+                            <div class="desc">
+                                <h3><i class="fa fa-quote-left"></i> Awesome Services!</h3>
+                                <p class="lead">Explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you completed.</p>
+                            </div>
+                             end testi-meta --><!--
+                        </div>
+                         end testimonial --><!--
+
+                        <div class="testimonial clearfix">
+							<div class="testi-meta">
+                                <img src="images/testi_03.png" alt="" class="img-fluid ">
+                                <h4>Venanda Mercy </h4>
+                            </div>
+                            <div class="desc">
+                                <h3><i class="fa fa-quote-left"></i> Great & Talented Team!</h3>
+                                <p class="lead">The master-builder of human happines no one rejects, dislikes avoids pleasure itself, because it is very pursue pleasure. </p>
+                            </div>
+                             end testi-meta --><!--
+                        </div>
+                         end testimonial --><!--
+                        <div class="testimonial clearfix">
+							<div class="testi-meta">
+                                <img src="images/testi_01.png" alt="" class="img-fluid">
+                                <h4>James Fernando </h4>
+                            </div>
+                            <div class="desc">
+                                <h3><i class="fa fa-quote-left"></i> Wonderful Support!</h3>
+                                <p class="lead">They have got my project on time with the competition with a sed highly skilled, and experienced & professional team.</p>
+                            </div>
+                             end testi-meta --><!--
+                        </div>
+                         end testimonial --><!--
+
+                        <div class="testimonial clearfix">
+							<div class="testi-meta">
+                                <img src="images/testi_02.png" alt="" class="img-fluid">
+                                <h4>Jacques Philips </h4>
+                            </div>
+                            <div class="desc">
+                                <h3><i class="fa fa-quote-left"></i> Awesome Services!</h3>
+                                <p class="lead">Explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you completed.</p>
+                            </div>
+                             end testi-meta --><!--
+                        </div>
+                         end testimonial --><!--
+
+                        <div class="testimonial clearfix">
+							<div class="testi-meta">
+                                <img src="images/testi_03.png" alt="" class="img-fluid">
+                                <h4>Venanda Mercy </h4>
+                            </div>
+                            <div class="desc">
+                                <h3><i class="fa fa-quote-left"></i> Great & Talented Team!</h3>
+                                <p class="lead">The master-builder of human happines no one rejects, dislikes avoids pleasure itself, because it is very pursue pleasure. </p>
+                            </div>
+                             end testi-meta --><!--
+                        </div> end testimonial --><!--
+                    </div> end carousel --><!--
+                </div> end col --><!--
+            </div> end row --><!--
+        </div> end container --><!--
+    </div> end section --><!--
+
+    <div class="parallax section dbcolor">
+        <div class="container">
+            <div class="row logos">
+                <div class="col-md-2 col-sm-2 col-xs-6 wow fadeInUp">
+                    <a href="#"><img src="images/logo_01.png" alt="" class="img-repsonsive"></a>
+                </div>
+                <div class="col-md-2 col-sm-2 col-xs-6 wow fadeInUp">
+                    <a href="#"><img src="images/logo_02.png" alt="" class="img-repsonsive"></a>
+                </div>
+                <div class="col-md-2 col-sm-2 col-xs-6 wow fadeInUp">
+                    <a href="#"><img src="images/logo_03.png" alt="" class="img-repsonsive"></a>
+                </div>
+                <div class="col-md-2 col-sm-2 col-xs-6 wow fadeInUp">
+                    <a href="#"><img src="images/logo_04.png" alt="" class="img-repsonsive"></a>
+                </div>
+                <div class="col-md-2 col-sm-2 col-xs-6 wow fadeInUp">
+                    <a href="#"><img src="images/logo_05.png" alt="" class="img-repsonsive"></a>
+                </div>
+                <div class="col-md-2 col-sm-2 col-xs-6 wow fadeInUp">
+                    <a href="#"><img src="images/logo_06.png" alt="" class="img-repsonsive"></a>
+                </div>
+            </div> end row --><!--
+        </div> end container --><!--
+    </div> end section -->
+
+    
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                
+
+                <div class="col-lg-4 col-md-4 col-xs-12">
+                    <div class="widget clearfix">
+                        <div class="widget-title">
+                            <h3>Useful Link</h3>
+                        </div>
+                        <ul class="footer-links">
+                            <br>
+                            <li><a target="_blank" href="http://www.bangladesh.gov.bd/index.php?lang=bn">National web portal
+                            </a></li>
+                            <li><a target="_blank" href="http://www.shed.gov.bd/">Ministry of Education</a></li>
+                            <li><a target="_blank" href="http://www.rajshahieducationboard.gov.bd/">Rajshahi education board</a></li>
+                            <li><a target="_blank" href="http://www.nctb.gov.bd/">NCTB</a></li>
+                            <li><a target="_blank" href="http://www.xiclassadmission.gov.bd/">XI Class Admission</a></li>
+                        </ul><!-- end links -->
+                    </div><!-- end clearfix -->
+                </div><!-- end col -->
+                
+
+                <div class="col-lg-4 col-md-4 col-xs-12">
+                    <div class="widget clearfix">
+                        <div class="widget-title">
+                            <h3>About US</h3>
+                        </div>
+                        <br>
+                        <p style="text-align: justify;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe cupiditate nostrum fugiat sed non quas veniam, laboriosam accusamus est eos itaque illo error adipisci aperiam quidem minima? Perferendis, omnis consequuntur.</p>
+                        <div class="footer-right">
+                            <ul class="footer-links-soi" style="margin: 0% 50%;">
+                                <li><a target="_blank" href="https://www.facebook.com/groups/807654189999061"><i class="fa fa-facebook"></i></a></li>
+                                <!-- <li><a href="#"><i class="fa fa-github"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                                <li><a href="#"><i class="fa fa-pinterest"></i></a></li> -->
+                            </ul><!-- end links -->
+                        </div>
+                    </div><!-- end clearfix -->
+                </div><!-- end col -->
+
+
+                <div class="col-lg-4 col-md-4 col-xs-12">
+                    <div class="widget clearfix">
+                        <div class="widget-title">
+                            <h3>Contact</h3>
+                        </div>
+                        <br>
+                        <ul class="footer-links">
+                            <li>02588831709</li>
+                            <li>+88 01711-972241,  +88 01309-128454</li>
+                            <li><a href="mailto:#">ramsc999@gmail.com</a></li>
+                            <li>SOYADHANGORA, SIRAJGONJ. SIRAJGONJ - 6700</li>
+                        </ul><!-- end links -->
+                    </div><!-- end clearfix -->
+                </div><!-- end col -->
+                
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </footer><!-- end footer -->
+
+    
+   <div class="copyrights">
+        <div class="container">
+            <div class="footer-distributed">
+                <div class="footer-center">                   
+                    <p style="text-align: center;" class="footer-company-name">All Rights Reserved. &copy; 2023  Design By : <a href="#" target="_blank"><img src="images/1logo.png" alt=""></a></p>
+                </div>
+            </div>
+         </div> <!--end container -->
+    </div> <!-- end copyrights  -->
+
+    <a href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
+
+    <!-- ALL JS FILES -->
+    <script src="js/all.js"></script>
+    <!-- ALL PLUGINS -->
+    <script src="js/custom.js"></script>
+	<script src="js/timeline.min.js"></script>
+	<script>
+		timeline(document.querySelectorAll('.timeline'), {
+			forceVerticalMode: 700,
+			mode: 'horizontal',
+			verticalStartPosition: 'left',
+			visibleItems: 4
+		});
+	</script>
+</body>
+</html>

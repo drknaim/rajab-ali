@@ -1,0 +1,109 @@
+
+p{
+    font-size: 17px;
+    text-align: justify;
+}
+
+.g-map{
+    width: 80%;
+    margin: auto;
+    padding: 50px 0;
+}
+
+
+.abc .all-title-box{
+    background-image: none;
+}
+
+.g-map iframe{
+    width: 100%;
+}
+
+.top-space{ 
+    width: 100%;
+}
+.home-title{
+    padding-top: 30%;
+}
+
+.home-title h2{
+    margin-left: 5%;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    text-align: left;
+    font-size: 30px;
+    text-shadow: rgb(0, 0, 0) 1px 0px 0px, rgb(0, 0, 0) 0.540302px 0.841471px 0px, rgb(0, 0, 0) -0.416147px 0.909297px 0px, rgb(0, 0, 0) -0.989992px 0.14112px 0px, rgb(0, 0, 0) -0.653644px -0.756802px 0px, rgb(0, 0, 0) 0.283662px -0.958924px 0px, rgb(0, 0, 0) 0.96017px -0.279415px 0px;
+    /* text-shadow: rgb(255, 255, 255) 1px 0px 0px, rgb(255, 255, 255) 0.540302px 0.841471px 0px, rgb(255, 255, 255) -0.416147px 0.909297px 0px, rgb(255, 255, 255) -0.989992px 0.14112px 0px, rgb(255, 255, 255) -0.653644px -0.756802px 0px, rgb(255, 255, 255) 0.283662px -0.958924px 0px, rgb(255, 255, 255) 0.96017px -0.279415px 0px; */
+}
+.home-title h3{
+    margin-left: 5%;
+    color: aliceblue;
+    font-size: 40px;
+    text-align: left;
+    text-shadow: rgb(0, 0, 0) 1px 0px 0px, rgb(0, 0, 0) 0.540302px 0.841471px 0px, rgb(0, 0, 0) -0.416147px 0.909297px 0px, rgb(0, 0, 0) -0.989992px 0.14112px 0px, rgb(0, 0, 0) -0.653644px -0.756802px 0px, rgb(0, 0, 0) 0.283662px -0.958924px 0px, rgb(0, 0, 0) 0.96017px -0.279415px 0px;
+}
+
+.about-college{
+    text-align: justify;
+}
+.flaticon-open-envelope{
+    display: inline;
+}
+
+.icon-box-hmv{
+    border: none;
+}
+
+
+.icon-box-hmv #tshirt{
+    padding-top: 20px;
+    padding-left: 20%;
+    padding-right: 20%;
+    width: 150px;
+    height: auto;
+}
+.icon-box-hmv #girl{
+    padding-top: 20px;
+    padding-left: 20%;
+    padding-right: 20%;
+    width: 140px;
+    height: auto;
+}
+
+
+
+/* Bullet */
+
+.bullet ul { list-style: none; } /* Remove default bullets */
+
+.bullet ul li {
+    position: relative;
+    text-align: justify;
+    font-size: 16px;
+    padding: 0px 0px 0px 5px;
+}
+.bullet li::before {
+    content: "\25CE"; /* Unicode bullet symbol */
+
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    left: -20px;
+    top: 8px;
+    content: '';
+    border-right: 2px solid tomato;
+    border-top: 2px solid tomato;
+    transform: rotate(45deg);
+}
+
+
+/*  Bullet  */
+
+/* Contact Details */
+.contact-details{
+    padding-left: 20px;
+}
+.contact-details-svg{
+    width: 50px;
+    padding-top: 20px;
+}
