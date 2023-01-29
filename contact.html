@@ -103,30 +103,44 @@
                 <div class="col-xl-6 col-md-12 col-sm-12">
                     <div class="contact_form">
                         <div id="message"></div>
-                        <form id="contactform" class="" action="contact.php" name="contactform" method="post">
+
+                        <form id="contactform" class="" action="contact-my.php" name="contactform" method="post">
                             <div class="row row-fluid">
-                                <div class="col-lg-6 col-md-6 col-sm-6">
-                                    <input type="text" name="first_name" id="first_name" class="form-control" placeholder="First Name">
+                                <div class="col-lg-12 col-md-6 col-sm-6">
+                                    <input type="text" name="name" id="name" class="form-control" placeholder="Your Name">
                                 </div>
-                                <div class="col-lg-6 col-md-6 col-sm-6">
+                                <!-- <div class="col-lg-6 col-md-6 col-sm-6">
                                     <input type="text" name="last_name" id="last_name" class="form-control" placeholder="Last Name">
-                                </div>
-                                <div class="col-lg-6 col-md-6 col-sm-6">
+                                </div> -->
+                                <div class="col-lg-12 col-md-6 col-sm-6">
                                     <input type="email" name="email" id="email" class="form-control" placeholder="Your Email">
                                 </div>
-                                <div class="col-lg-6 col-md-6 col-sm-6">
+                                <div class="col-lg-12 col-md-6 col-sm-6">
                                     <input type="text" name="phone" id="phone" class="form-control" placeholder="Your Phone">
                                 </div>
                                 <div class="col-lg-12 col-md-12 col-sm-12">
-                                    <textarea class="form-control" name="comments" id="comments" rows="6" placeholder="Give us more details.."></textarea>
+                                    <textarea class="form-control" name="massage" id="massage" rows="6" placeholder="Give us more details.."></textarea>
                                 </div>
                                 <div class="text-center pd">
-                                    <button type="submit" value="SEND" id="submit" class="btn btn-light btn-radius btn-brd grd1 btn-block">Send Massage</button>
+                                    <button type="submit" value="SEND"  class="btn btn-light btn-radius btn-brd grd1 btn-block">Send Massage</button>
                                 </div>
                             </div>
                         </form>
+
                     </div>
                 </div><!-- end col -->
+
+
+                <!-- <form action="">
+                    <input type="text" id="name" placeholder="Your Name" required>
+                    <input type="email" id="email" placeholder="Your Email" required>
+                    <input type="text" id="phone" placeholder="Phone Number" required>
+                    <textarea rows="8" placeholder="massage" required></textarea>
+                    <button type="submit" class="contact-send">Send Massage</button>
+        
+                </form> -->
+
+
 				<div class="col-xl-6 col-md-12 col-sm-12">
 					<div class="map-box">
 						<div id="custom-places" class="small-map"></div>
