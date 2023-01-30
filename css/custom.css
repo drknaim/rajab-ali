@@ -10,10 +10,52 @@ p{
     padding: 50px 0;
 }
 
-
-.abc .all-title-box{
-    background-image: none;
+.image img{
+    transition: .2s linear;
 }
+
+.image:hover img{
+    transform: scale(1.02);
+}
+
+.popup-image{
+    margin-top: 72px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.9);
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+    display: none;
+}
+
+.popup-image span{
+    position: absolute;
+    top: 20;
+    right: 10px;
+    font-size: 60px;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    z-index: 100;
+}
+
+.popup-image img{
+    
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 5px solid white;
+    border-radius: 5px;
+    width: 750px;
+    object-fit: cover;
+}
+
+/* .all-title-box{
+    background-image: none;
+} */
 
 .g-map iframe{
     width: 100%;
@@ -107,3 +149,5 @@ p{
     width: 50px;
     padding-top: 20px;
 }
+
+/* event */

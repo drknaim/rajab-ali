@@ -325,14 +325,18 @@
 		height: 55px;
 		background-color: #4c5a7d;
 	}
-
 	#title-ra{
 		font-size: 35px;
 	}
 	#title-msc{
 		font-size: 20px;
 	}
-	
+	.column-event3{
+		width: 100%;
+		display: block;
+		margin: 20px;
+	}
+
 
 	.top-navbar .navbar-light .navbar-nav .nav-item{
 		padding: 0px;
