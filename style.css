@@ -58,7 +58,9 @@ body.demos .container-fluid {
 html, body{
 	height: 100%;
 }
-
+section{
+    background-color:  rgb(255, 247, 234);
+}
 
 a {
     color: #1f1f1f;
@@ -310,7 +312,7 @@ a img.aligncenter {
   left: 0;
   width: 100%;
   height: 50%;
-  background: #eea412;
+  background: tomato;
   z-index: -1;
   transition: top 1.2s linear 3.1s;
 }
@@ -321,7 +323,7 @@ a img.aligncenter {
   left: 0;
   width: 100%;
   height: 50%;
-  background: #eea412;
+  background: tomato;
   z-index: -1;
   transition: bottom 1.2s linear 3.1s;
 }
@@ -562,7 +564,7 @@ a img.aligncenter {
 	left: 40%;
 }
 .top-navbar .navbar-light .navbar-nav .nav-item.active .nav-link{
-	color: #eea412;
+	color: tomato;
 }
 .top-navbar .navbar-light .navbar-nav .nav-item.active .nav-link::after{
 	opacity: 1;
@@ -578,7 +580,7 @@ a img.aligncenter {
 	left: 40%;
 }
 .top-navbar .navbar-light .navbar-nav .nav-item .nav-link:hover{
-	color: #eea412;
+	color: tomato;
 }
 .top-navbar .navbar-light .navbar-nav .nav-item .nav-link:hover::after{
 	opacity: 1;
@@ -623,7 +625,7 @@ a img.aligncenter {
 }
 
 .top-navbar .navbar-light .navbar-nav li .dropdown-menu a:hover{
-	background: #eea412;
+	background: tomato;
 	color: #ffffff;
 }
 
@@ -642,7 +644,7 @@ a img.aligncenter {
 
 .navbar-right li a.hover-btn-new::before,
 .navbar-right li a.hover-btn-new::after {
-  background: #eea412;
+  background: tomato;
   content: '';
   position: absolute;
   z-index: 1;
@@ -695,7 +697,7 @@ a img.aligncenter {
 }
 
 .navbar-toggler:hover{
-	background: #eea412;
+	background: tomato;
 }
 
 .navbar-toggler:hover .icon-bar{
@@ -710,7 +712,7 @@ a img.aligncenter {
 
 .box-slider .carousel-control-prev{
 	border-radius: 2px;
-	background: #eea412;
+	background: tomato;
 	position: absolute;
 	left: 0px;
 	font-size: 38px;
@@ -722,7 +724,7 @@ a img.aligncenter {
 }
 .box-slider .carousel-control-next{
 	border-radius: 2px;
-	background: #eea412;
+	background: tomato;
 	position: absolute;
 	right: 0px;
 	font-size: 38px;
@@ -760,7 +762,7 @@ a img.aligncenter {
 }
 
 .big-tagline a.hover-btn-new:hover span {
-  color: #eea412;
+  color: tomato;
 }
 
 .hover-btn-new::before {
@@ -771,7 +773,7 @@ a img.aligncenter {
 }
 
 .hover-btn-new::after {
-  background: #eea412 !important;
+  background: tomato !important;
   height: 100%;
   left: 0;
   top: 0;
@@ -808,7 +810,7 @@ a img.aligncenter {
 -------------------------------------------------------------------*/
 
 .dbcolor{
-	background: #eea412;
+	background: tomato;
 }
 
 .parallax {
@@ -863,11 +865,11 @@ a img.aligncenter {
 }
 
 .section.wb {
-    background-color: #ffffff;
+    background-color: rgb(255, 247, 234);
 }
 
 .section.lb {
-    background-color: #f2f3f5;
+    background-color: rgb(255, 247, 234);
 }
 
 .section.db {
@@ -900,7 +902,7 @@ a img.aligncenter {
 }
 
 .orange{
-	border-color: #eea412;
+	border-color: tomato;
 }
 
 .first-section {
@@ -933,7 +935,7 @@ a img.aligncenter {
 }
 
 .first-section h2 strong{
-	color: #eea412;
+	color: tomato;
 }
 
 .first-section .lead {
@@ -1062,7 +1064,7 @@ a img.aligncenter {
 }
 .message-box a.hover-btn-new::before,
 .message-box a.hover-btn-new::after {
-	background: #eea412;
+	background: tomato;
 	content: '';
 	position: absolute;
 	z-index: 1;
@@ -1103,6 +1105,13 @@ a img.aligncenter {
 
 .hmv-box{
 	padding: 60px 0px; 
+    background-color: rgb(255, 247, 234) ;
+}
+.hmv-box .inner-hmv{
+    background-color: rgb(255, 252, 246);
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px rgba(128, 128, 128, 0.596);
+    
 }
 .inner-hmv{
 	padding: 15px;
@@ -1125,7 +1134,7 @@ a img.aligncenter {
 }
 .icon-box-hmv i{
 	font-size: 60px;
-	color: #eea412;
+	color: tomato;
 }
 .inner-hmv h3{
 	font-size: 28px;
@@ -1143,13 +1152,13 @@ a img.aligncenter {
 }
 
 .inner-hmv:hover .icon-box-hmv{
-	border: 3px solid #eea412;
+	border: 3px solid tomato;
 }
 .inner-hmv:hover .icon-box-hmv i{
 	color: #4babb1;
 }
 .inner-hmv:hover h3{
-	color: #eea412;
+	color: tomato;
 }
 .tr-pa{
 	font-size: 170px;
@@ -1323,7 +1332,7 @@ a img.aligncenter {
 }
 
 .desc h3 i {
-    color: #eea412;
+    color: tomato;
     font-size: 37px;
     vertical-align: middle;
     margin-right: 12px;
@@ -1523,7 +1532,7 @@ a img.aligncenter {
 
 .pricing-table-sign-up a.hover-btn-new::before,
 .pricing-table-sign-up a.hover-btn-new::after {
-  background: #eea412;
+  background: tomato;
   content: '';
   position: absolute;
   z-index: 1;
@@ -1702,7 +1711,36 @@ a img.aligncenter {
 }
 
 .message-box{
-	padding: 20px 0px;
+    padding: 3vh;
+    background-color: rgb(255, 255, 255) ;
+    border-left: 7px solid;
+    border-left-color: #0B0B3A;
+    /* border-image: linear-gradient(360deg, rgb(240, 119, 97), rgb(148, 39, 0)); */
+    border-image-slice: 1;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 20px;
+}
+.message-box-mid{
+    padding: 3vh;
+    background-color: rgb(255, 255, 255) ;
+    border-left: 7px solid;
+    /* border-image: linear-gradient(360deg, rgb(113, 103, 255), rgb(10, 0, 139)); */
+    border-image-slice: 1;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 20px;
+}
+.message-box-top{
+    padding: 3vh;
+    background-color: rgb(255, 255, 255) ;
+    border-left: 7px solid;
+    border-right: 7px solid;
+    border-right-color: tomato;
+    border-left-color: tomato;
+    
+    /* border-image: linear-gradient(360deg, rgba(113, 103, 255, 0.5), rgba(9, 0, 139, 0.5)); */
+    border-image-slice: 1;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 20px;
 }
 
 .service-widget h3 {
@@ -1730,7 +1768,7 @@ a img.aligncenter {
     font-weight: 600;
     letter-spacing: 0.5px;
     font-size: 15px;
-    color: #eea412;
+    color: tomato;
 }
 
 .message-box h2 {
@@ -2658,7 +2696,7 @@ select.mobile-device {
 }
 
 .footer-distributed .footer-company-name a:hover{
-	color: #eea412;
+	color: tomato;
 }
 .footer-links-soi{
 	margin: 0px;
@@ -2679,7 +2717,7 @@ select.mobile-device {
 	border-radius: 2px;
 }
 .footer-links-soi li a:hover{
-	background: #eea412;
+	background: tomato;
 }
 .footer-links-soi li a:hover i{
 	color: #ffffff;
@@ -2776,7 +2814,7 @@ select.mobile-device {
     right: 0;
     bottom: 0;
     left: 0;
-    background: #eea412;
+    background: tomato;
     z-index: 11000;
     position: fixed;
     display: block
@@ -2988,7 +3026,7 @@ span.m_1 {
 .pricingTable .pricingContent > i{
     font-size: 60px;
     margin-top: 20px;
-	color: #eea412;
+	color: tomato;
 }
 .pricingTable .pricingContent ul{
     list-style: none;
@@ -3080,7 +3118,7 @@ span.m_1 {
 
 .pricingTable-sign-up a.hover-btn-new::before,
 .pricingTable-sign-up a.hover-btn-new::after {
-  background: #eea412;
+  background: tomato;
   content: '';
   position: absolute;
   z-index: 1;
@@ -3140,7 +3178,7 @@ span.m_1 {
 
 .customer-box .nav-tabs > li > a.active{
 	border: none;
-	background: #eea412;
+	background: tomato;
 	color: #fff;
 	border-radius: 0px;
 }
@@ -3156,7 +3194,7 @@ span.m_1 {
 }
 
 .customer-box .nav-tabs > li > a:hover{
-	background: #eea412;
+	background: tomato;
 	color: #ffffff;
 	border: 0px;
 }
@@ -3359,7 +3397,7 @@ span.m_1 {
 }
 .our-team .team-content{
     padding: 20px 0;
-    background: #f5f7f8;
+    background: rgba(255, 99, 71, 0.25);
     color: #54478a;
 }
 .our-team .title{
@@ -3377,7 +3415,7 @@ span.m_1 {
     color: #999;
 }
 .our-team:hover .team-content{
-	background: #4babb1;
+	background: #0b0b3ae3;
 }
 .our-team:hover .team-content .title{
 	color: #ffffff;
@@ -3428,7 +3466,7 @@ span.m_1 {
     color: #777;
 }
 .meta-info-blog > span > a {
-	color: #eea412;
+	color: tomato;
 }
 .meta-info-blog > span > a:hover {
 	color: #4babb1;
@@ -3448,7 +3486,7 @@ span.m_1 {
 	line-height: 35px;
 }
 .blog-button a.hover-btn-new::before, .blog-button a.hover-btn-new::after {
-    background: #eea412;
+    background: tomato;
     content: '';
     position: absolute;
     z-index: 1;
@@ -3496,7 +3534,7 @@ span.m_1 {
 	float: left;
 }
 .post-content .post-date .day{
-	background: #eea412;
+	background: tomato;
 	color: #FFFFFF;
 	font-size: 22px;
 	font-weight: 600;
@@ -3514,7 +3552,7 @@ blockquote {
     border-left: 5px solid #ffffff;
 }
 blockquote.default {
-    border-color: #eea412;
+    border-color: tomato;
     color: #666;
     background: #ffffff;
     font-size: inherit;
@@ -3534,7 +3572,7 @@ blockquote.default {
     width: 75%;
 }
 .author-desc{
-	background: #eea412;
+	background: tomato;
 	float: right;
 	height: 100%;
 	min-height: 100%;
@@ -3624,7 +3662,7 @@ blockquote.default {
     padding: 3px;
 }
 .comment-container {
-    border-top: 2px solid #eea412;
+    border-top: 2px solid tomato;
     margin: 0 0 15px 90px;
     padding: 20px 20px;
     position: relative;
@@ -3683,7 +3721,7 @@ a.link-style3 {
 }
 .post-btn{}
 .post-btn button.hover-btn-new::before, .post-btn button.hover-btn-new::after {
-    background: #eea412;
+    background: tomato;
     content: '';
     position: absolute;
     z-index: 1;
@@ -3751,7 +3789,7 @@ a.link-style3 {
     text-indent: -5555em;
     line-height: 100;
     overflow: hidden;
-    background: #eea412 url(images/search-icon.png) no-repeat center 14px;
+    background: tomato url(images/search-icon.png) no-repeat center 14px;
     border: 0;
     transition: all 0.4s ease-in-out;
     -webkit-transition: all 0.4s ease-in-out;
@@ -3767,7 +3805,7 @@ a.link-style3 {
 	font-weight: 400;
 	padding: 0px;
 	margin-bottom: 15px;
-	border-right: 3px solid #eea412;
+	border-right: 3px solid tomato;
 }
 .widget-categories ul{
 	list-style: none;
@@ -3785,14 +3823,14 @@ a.link-style3 {
 	font-size: 13px;
 }
 .widget-categories ul li a:hover{
-	color: #eea412;
+	color: tomato;
 }
 .widget-tags .widget-title{
 	font-size: 18px;
 	font-weight: 400;
 	padding: 0px;
 	margin-bottom: 15px;
-	border-right: 3px solid #eea412;
+	border-right: 3px solid tomato;
 }
 .widget-tags .tags{
 	list-style: none;
@@ -3807,7 +3845,7 @@ a.link-style3 {
     line-height: 25px;
 }
 .tags li a {
-    border: 1px solid #eea412;
+    border: 1px solid tomato;
     color: #212121;
 	text-transform: capitalize;
     float: left;
@@ -3820,8 +3858,8 @@ a.link-style3 {
     transition: all 0.2s;
 }
 .tags li a:hover {
-	border-color: #eea412;
-	background: #eea412;
+	border-color: tomato;
+	background: tomato;
 	color: #ffffff;
 }
 
@@ -3842,7 +3880,7 @@ a.link-style3 {
     text-transform: capitalize;
 }
 .course-item:hover .course-title a {
-	color: #eea412;
+	color: tomato;
 }
 .course-br{
 	border: 1px solid #4babb1;
@@ -3867,7 +3905,7 @@ a.link-style3 {
 	font-size: 11px;
 }
 .course-meta-bot ul li:hover{
-	color: #eea412;
+	color: tomato;
 }
 
 

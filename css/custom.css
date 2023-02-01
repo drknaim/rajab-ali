@@ -141,13 +141,21 @@ p{
 
 /*  Bullet  */
 
-/* Contact Details */
-.contact-details{
-    padding-left: 20px;
+/* Images Shadow */
+.img-shadow{
+    background-color: rgb(255, 247, 234) ;
+    box-shadow: 10px 10px 40px gray;
 }
-.contact-details-svg{
-    width: 50px;
-    padding-top: 20px;
+/* Teachers Group */
+.teachers-group h2{
+    color: rgba(0, 0, 0, 0.795);
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
 }
-
-/* event */
+.teachers-group{
+    background-color: aliceblue;
+}
+/*  rgb(255, 247, 234) */
+/* #0B0B3A */
