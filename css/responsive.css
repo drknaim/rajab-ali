@@ -8,6 +8,9 @@
 }
 
 @media (min-width: 1200px){
+	.inner-hmv-h1{
+		height: 470px;
+	}
 	.top-space{
 		height: 71px;
 		background-color: #4C5A7D;
@@ -35,7 +38,9 @@
 		height: 71px;
 		background-color: #4C5A7D;
 	} 
-	
+	.inner-hmv-h1{
+		height: 470px;
+	}
 	#title-ra{
 		font-size: 55px;
 	}
@@ -146,6 +151,9 @@
 	}
 	.btn-light{
 		padding: 10px 20px;
+	}
+	.inner-hmv-h1{
+		height: 470px;
 	}
 	.inner-hmv{
 		margin-bottom: 30px;
