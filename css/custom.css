@@ -65,21 +65,23 @@ p{
     width: 100%;
 }
 .home-title{
-    padding-top: 30%;
+    padding-top: 3%;
 }
 
 .home-title h2{
     margin-left: 5%;
-    color: rgba(255, 166, 0, 0.897);
+    color: #0B0B3A;
+    /* color: rgba(255, 166, 0, 0.897); */
     font-size: 40px;
     text-align: left;
     font-size: 30px;
     /* text-shadow: rgb(0, 0, 0) 1px 0px 0px, rgb(0, 0, 0) 0.540302px 0.841471px 0px, rgb(0, 0, 0) -0.416147px 0.909297px 0px, rgb(0, 0, 0) -0.989992px 0.14112px 0px, rgb(0, 0, 0) -0.653644px -0.756802px 0px, rgb(0, 0, 0) 0.283662px -0.958924px 0px, rgb(0, 0, 0) 0.96017px -0.279415px 0px; */
-    /* text-shadow: rgb(255, 255, 255) 1px 0px 0px, rgb(255, 255, 255) 0.540302px 0.841471px 0px, rgb(255, 255, 255) -0.416147px 0.909297px 0px, rgb(255, 255, 255) -0.989992px 0.14112px 0px, rgb(255, 255, 255) -0.653644px -0.756802px 0px, rgb(255, 255, 255) 0.283662px -0.958924px 0px, rgb(255, 255, 255) 0.96017px -0.279415px 0px; */
-}
+
+    text-shadow: rgb(255, 255, 255) 1px 0px 0px, rgb(255, 255, 255) 0.540302px 0.841471px 0px, rgb(255, 255, 255) -0.416147px 0.909297px 0px, rgb(255, 255, 255) -0.989992px 0.14112px 0px, rgb(255, 255, 255) -0.653644px -0.756802px 0px, rgb(255, 255, 255) 0.283662px -0.958924px 0px, rgb(255, 255, 255) 0.96017px -0.279415px 0px;
+} 
 .home-title h3{
     margin-left: 5%;
-    color: aliceblue;
+    color: rgb(255, 255, 255);
     font-size: 40px;
     text-align: left;
     text-shadow: rgb(0, 0, 0) 1px 0px 0px, rgb(0, 0, 0) 0.540302px 0.841471px 0px, rgb(0, 0, 0) -0.416147px 0.909297px 0px, rgb(0, 0, 0) -0.989992px 0.14112px 0px, rgb(0, 0, 0) -0.653644px -0.756802px 0px, rgb(0, 0, 0) 0.283662px -0.958924px 0px, rgb(0, 0, 0) 0.96017px -0.279415px 0px;
@@ -139,16 +141,13 @@ p{
 }
 
 
-/*  Bullet  */
-
 /* Images Shadow */
 .img-shadow{
-    background-color: rgb(255, 247, 234) ;
     box-shadow: 10px 10px 40px gray;
 }
 /* Teachers Group */
 .teachers-group h2{
-    color: rgba(0, 0, 0, 0.795);
+    color: rgba(0, 0, 0, 0.6);
     padding-bottom: 30px;
     text-align: center;
     font-size: 30px;
@@ -159,3 +158,16 @@ p{
 }
 /*  rgb(255, 247, 234) */
 /* #0B0B3A */
+
+/* Gallery Title */
+.gallery-title{
+
+}
+.gallery-title h2{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+    color: rgba(0, 0, 0, 0.6);
+}
